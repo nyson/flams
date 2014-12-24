@@ -1,0 +1,44 @@
+body {
+    overflow: hidden;
+    font-size: 2em;
+    text-align: center;
+    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;    
+}
+
+h1, h2, h3 {font-family: Georgia, Serif;}
+
+h1 {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+h3 {
+    margin: 2px inherit;
+    font-size: 0.5em;
+    font-weight: 100;
+    color: #aaa;
+}
+
+h3:first-child {
+    font-size: 0.7em;
+    color: #000;
+    font-weight: 500;
+}
+
+h3:nth-child(2) {color: #000;}
+h3:nth-child(3) {color: #222;}
+h3:nth-child(4) {color: #555;}
+h3:nth-child(5) {color: #999;}
+
+button {
+    height: 42px;
+    width: 150px;
+    font-size: 0.5em;
+}
+
+
+
