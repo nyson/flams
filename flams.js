@@ -6,8 +6,8 @@ function newAmbetsman() {
     var name = document.getElementById("name");
     var job = document.getElementById("job");
 
-    name.innerHTML = rndE(lists.name) + " " + rndE(lists.surname);
-    job.innerHTML = rndE(lists.job) + rndE(lists.surjob);
+    name.textContent = rndE(lists.name) + " " + rndE(lists.surname);
+    job.textContent = rndE(lists.job) + rndE(lists.surjob);
 }
 
 window.onload = function() {
@@ -15,8 +15,8 @@ window.onload = function() {
 
     document.getElementById("generateAmbetsman").onclick = function() {
 	var previous = document.createElement("h3");
-	previous.innerHTML = document.getElementById("name").innerHTML
-	 + ": " + document.getElementById("job").innerHTML;
+	previous.textContent = document.getElementById("name").textContent
+	 + ": " + document.getElementById("job").textContent;
 
 	document.getElementById("prev").insertBefore(
 	    previous,
