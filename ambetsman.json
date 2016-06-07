@@ -1585,9 +1585,22 @@ var flosk = {
 	"förändringsbenägen",
 	"lagspelande",
 	"full av energi i alla lägen",
-	"hungrig"
-	
-
+	"hungrig",
+	"lösningsorienterad", 
+	"modig", 
+	"positiv",
+	"resultatinriktad",
+	"självgående", 
+	"serviceinriktad", 
+	"serviceminded", 
+	"stresstålig",
+	"uthållig", 
+	"engagerad", 
+	"kundfokuserad", 
+	"kundorienterad", 
+	"lyhörd", 
+	"målinriktad", 
+	"resultatdriven", 
     ],
 
     descriptions: [
@@ -1599,57 +1612,54 @@ var flosk = {
     nouns: [
 	"goda datakunskaper",
 	"stort driv",
-	"social kompetens"
-
+	"social kompetens",
+	"högt i tak", 
+	"högt tempo", 
+	"samarbetsvilja",
+	"naturlig pondus", 
     ],
 
     verbs: [
+	"ser möjligheter", 
 	"brinna för",
 	"bygga relationer",
 	"gasa och bromsa",
 	"gillar utmaningar",
+	"är kommunikativ",
+	"kraftsamla",
+
+    ],
+
+    // går att sätta kunna framför
+    skills: [
 	"ha många bollar i luften",
 	"ha integritet",
 	"ha samma värdegrund",
+	"ha många järn i elden",
+	"leverera affärsnytta", 	
+	"skapa legitimitet",
+	"utnyttja ditt nätverk och relationer",
+	"vara både strategisk och operativ",
+	"vara en team player ", 
     ],
 
 
-    unsorted: [
-	"högt i tak", 
-	"högt tempo", 
-	"kommunikativ", 
-	"kraftsamla", 
-	"levande dokument", 
-	"leverera affärsnytta", 
-	"lösningsorienterad", 
-	"modig", 
-	"många järn i elden", 
-	"naturlig pondus", 
-	"positiv", 
-	"resultatinriktad", 
-	"samarbetsvilja", 
-	"ser möjligheter", 
-	"serviceinriktad", 
-	"serviceminded", 
-	"självgående", 
+    buzzwords: [
+	"levande dokument",
 	"självständigt arbete", 
-	"kan inte allt, men vet var jag hittar", 
-	"skapa legitimitet", 
-	"spindeln i nätet", 
-	"stresstålig", 
 	"transparens", 
+    ],
+
+    // du är en person som 
+    slogans: [
+	"inte kan allt, men vet var du hittar", 
 	"tycker om att stå i rampljuset", 
+    ],    
+
+    // vi är ett företag/organisation som är 
+    
+    unsorted: [
 	"uppåt", 
-	"uthållig", 
-	"utnyttja ditt nätverk och relationer", 
-	"vara både strategisk och operativ", 
-	"vara en team player ", 
-	"vara engagerad", 
-	"vara kundfokuserad", 
-	"vara kundorienterad", 
-	"vara lyhörd", 
-	"vara målinriktad", 
-	"vara resultatdriven", 
 	"vi är ett glatt gäng", 
 	"villig att ta tag i", 
 	"mångfald", 
